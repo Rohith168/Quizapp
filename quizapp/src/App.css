@@ -1,0 +1,182 @@
+.App {
+  background-image: url("https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000");
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #cccccc; */
+  height: 100vh;
+  background-position: top 500px;
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  /* background-color: rgba(14, 14, 14, 0.879); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input,button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border:black;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  /* font-size: large; */
+  
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  /* background-color: #dfdfdf; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: rgb(21, 21, 21);
+  
+}
+
+
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  margin-top: 5px;
+  width: 200px;
+  border-radius: 8px
+}
+/* Adding styles on 'active' state */
+
+/* Adding styles on 'active' state */
+#btn1 {
+  margin-top: 5px;
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color:transparent;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: solid;
+  transition: 0.2s all;
+  font-weight: bolder;
+}
+/* Adding transformation when the button is active */
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+#btn2 {
+  margin-top: 5px;
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color:transparent;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: solid;
+  transition: 0.2s all;
+  font-weight: bolder;
+}
+/* Adding transformation when the button is active */
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+#btn3 {
+  margin-top: 5px;
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color:transparent;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: solid;
+  transition: 0.2s all;
+  font-weight: bolder;
+}
+/* Adding transformation when the button is active */
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+#btn4 {
+  margin-top: 5px;
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color:transparent;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: solid;
+  transition: 0.2s all;
+  font-weight: bolder;
+}
+/* Adding transformation when the button is active */
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+#btn1:focus{background-color:aliceblue;}
+#btn2:focus{background-color:aliceblue;}
+#btn3:focus{background-color:aliceblue;}
+#btn4:focus{background-color:aliceblue;}
+
+p {
+  font-size: 20px;
+  color: #ff6774;
+}
